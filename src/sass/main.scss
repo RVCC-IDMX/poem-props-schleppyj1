@@ -1,3 +1,33 @@
 /* main */
 @use "./base/reset";
 @use "./pages/home";
+
+body {
+    background-image: var(--gradient-28);
+    text-align: center;
+}
+
+.Title {
+    font-family: var(--font-serif);
+    font-weight: var(--font-weight-9);
+    font-size: var(--font-size-fluid-3);
+    color: var(--indigo-9);
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.Author {
+    font-family: var(--font-serif);
+    font-weight: var(--font-weight-5);
+    font-size: var(--font-size-fluid-3);
+    color: var(--indigo-7);
+}
+
+.poem__stanza {
+    font-size: var(--font-size-fluid-2);
+    color: var(--indigo-7);
+}
+
+.Footer {
+    color: var(--indigo-9);
+}
