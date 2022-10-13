@@ -1,0 +1,8 @@
+.poem {
+    display: grid;
+    gap: 1rem;
+
+    &__stanza {
+        font-size: var(--font-size-fluid-1);
+    }
+}
